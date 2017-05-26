@@ -1,8 +1,78 @@
 body {
 	background-color: white;
 }
+.pink-box {
+	border: 2px solid black;
+	background-color: #FFB4B0;
+	height: 3em;
+	width: 80%;
+	margin: 2em auto 0 auto;
 
-svg {
-	width="800";
-	height="55px;
+}
+
+.pink-box ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 1.2em;
+}
+
+.pink-box li {
+	font-family: Arial;
+	font-size: 14px;
+	display: inline;
+	border-right: 2px solid black;
+	padding: 0 0.2em;
+}
+
+/*Removes border to the right of Profile*/
+.pink-box li:nth-of-type(3) {
+	border-right: none;
+
+}
+
+.blue-box {
+	border: 2px solid black;
+	background-color: #4DD7FA;
+	min-height: 23em; 
+	width: 11.7em;
+	margin: 0.8em 0 0 8.3em;
+	float: left;
+	
+}
+
+.blue-box ul{
+	padding-left: 1em;
+}
+.blue-box li {
+	font-family: Arial;
+	font-size: 14px;
+	list-style: none;
+	padding-left: 0;
+}
+.album-drop-down select{
+	width: 75%;
+}
+.menu {
+	margin: 0.5em 0;
+}
+.yellow-box {
+	border: 2px solid black;
+	background-color: #FEFAC0;
+	height: 23em;
+	width: 36em;
+	margin: 0.8em 0 0 0.8em;
+	float: left;
+}
+
+.yellow-box h1 {
+	padding-left: 1.2em;
+	color: #785616;
+}
+.yellow-box ul {
+	list-style: none;
+	padding-left: 1.2;
+	
+}
+.yellow-box li {
+
 }

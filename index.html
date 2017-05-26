@@ -1,16 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+		  <meta charset="utf-8">
+		  <title>Music History</title>
+		  <link rel="stylesheet" type="text/css" href="main.css">
+		</head>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Music History</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-
-<body>
-<svg width="800" height="55">
-	<rect width="800" height="55" style="fill:lightpink"></rect>
-</svg>
-
-</body>
-</html>
+		<body>
+			<nav class="pink-box">
+					<ul>
+						<li>
+							<a href="#">View Music</a>
+						</li>
+						<li>
+							<a href="#">Add Music</a>
+						</li>
+						<li>
+							<a href="#">Profile</a>
+						</li>
+					</ul>
+			</nav>
+			<div class="blue-box">
+				<ul>
+					<li>
+						Song length:
+					</li>
+					<div class="slider">
+						<input type="range" min="0" max="11" value="7">
+					</div> 
+					<li class="menu">
+						Artist:
+					</li>
+					<div class="artist-drop-down">
+						<select>
+							<option value="krewella">Krewella</option>
+							<option value="glitch-mob">Glitch Mob</option>
+							<option value="koven">Koven</option>
+							<option value="cashcash">Cash Cash</option>
+							<option value="ephixa">Ephixa</option>
+						</select>
+					</div>
+					<li class="menu">
+						Album:
+					</li>
+					<div class="album-drop-down">
+						<select>
+							<option value="ammunition">Ammunition</option>
+							<option value="wecanmaketheworldstop">We Can Make the World Stop</option>
+							<option value="fromthestartep">From The Start EP</option>
+							<option value="blod,sweat&3years">Blood, Sweat & 3 Years</option>
+							<option value="matches">Matches</option>
+						</select>
+					</div>
+					<li class="menu">
+						Genre:
+					</li>
+					</ul>
+					<div id="left-align">
+						<input type="checkbox" name="genre" value="rock">Rock
+						<input type="checkbox" name="genre" value="pop">Pop
+						<input type="checkbox" name="genre" value="blues">Blues
+					</div>
+					<div id="right-align">
+						<input type="checkbox" name="genre" value="classical">Classical
+						<input type="checkbox" name="genre" value="jazz">Jazz
+						<input type="checkbox" name="genre" value="hiphop">Hip hop
+					</div>
+					<div>
+						<input type="button" value="Filter">
+					</div>
+				</div>
+			<div class="yellow-box">
+				<h1>
+					Song Name
+				</h1>
+				<ul>
+					<li>
+						Artist name
+					</li>
+					<li>
+						Album name
+					</li>
+					<li>
+						Genre
+					</li>
+				</ul>
+			</div>	
+		</body>
+	</html>
