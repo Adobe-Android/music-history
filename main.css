@@ -35,7 +35,7 @@ body {
 	border: 2px solid black;
 	background-color: #4DD7FA;
 	min-height: 23em; 
-	width: 11.7em;
+	width: 20%;
 	margin: 0.8em 0 0 8.3em;
 	float: left;
 	
@@ -60,7 +60,7 @@ body {
 	border: 2px solid black;
 	background-color: #FEFAC0;
 	height: 23em;
-	width: 54.75em;
+	width: 58.8%;
 	margin: 0.8em 0 0 0.8em;
 	float: left;
 }
