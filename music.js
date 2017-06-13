@@ -13,6 +13,7 @@
 // {Song name} by {Artist} on the album {Album}
 
 var songs = [];
+var songDiv = document.getElementById("songName")
 
 songs[songs.length] = "Legs > by Z*ZTop on the album Eliminator";
 songs[songs.length] = "The Logical Song > by Supertr@amp on the album Breakfast in America";
@@ -26,16 +27,10 @@ songs.unshift("Warrior Concerto - by Glitch Mob on the album We Can Make the Wor
 for (var i = 0; i < songs.length; i++) {
   songs[i] = songs[i].replace('*', '').replace('@', '').replace('(', '').replace('!', '').replace('>', '-');
 
-  
 
-
-// var songInsert = document.getElementById("songs");
-// songInsert.innerHTML += "<h1>" + songs + "</h1>"
+songDiv.innerHTML += "<div>" + songs[i] + "</div>"
 
 }
 console.log("This is supposed to fix my strings ", songs);
-
-
-// console.log("The array contains ", songAdd);
 
 
