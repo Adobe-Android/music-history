@@ -14,13 +14,28 @@
 
 var songs = [];
 
-for (var i = 0; i < songs.length; i++) {
- var songAdd = "Human-by Krewella on the album Ammunition" + songs[i] + "Warrior Concerto-by Glitch Mob on the album We Can Make the World Stop"
- console.log("The array contains ", songAdd);
-}
+songs[songs.length] = "Legs > by Z*ZTop on the album Eliminator";
+songs[songs.length] = "The Logical Song > by Supertr@amp on the album Breakfast in America";
+songs[songs.length] = "Another Brick in the Wall > by Pink Floyd on the album The Wall";
+songs[songs.length] = "Welco(me to the Jungle > by Guns & Roses on the album Appetite for Destruction";
+songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little Pill";
 
-songs[songs.length] = "Legs-by ZZTop on the album Eliminator";
-songs[songs.length] = "The Logical Song-by Supertramp on the album Breakfast in America";
-songs[songs.length] = "Another Brick in the Wall-by Pink Floyd on the album The Wall";
-songs[songs.length] = "Welcome to the Jungle-by Guns & Roses on the album Appetite for Destruction";
-songs[songs.length] = "Ironic-by Alanis Morisette on the album Jagged Little Pill";
+songs.push("Human - by Krewella on the album Ammunition");
+songs.unshift("Warrior Concerto - by Glitch Mob on the album We Can Make the World Stop");
+
+for (var i = 0; i < songs.length; i++) {
+  songs[i] = songs[i].replace('*', '').replace('@', '').replace('(', '').replace('!', '').replace('>', '-');
+
+  
+
+
+// var songInsert = document.getElementById("songs");
+// songInsert.innerHTML += "<h1>" + songs + "</h1>"
+
+}
+console.log("This is supposed to fix my strings ", songs);
+
+
+// console.log("The array contains ", songAdd);
+
+
